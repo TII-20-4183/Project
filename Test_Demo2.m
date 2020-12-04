@@ -25,16 +25,16 @@ MRE2 = mean(abs(err(:,2)));
 MRE3 = mean(abs(err(:,3)./(1+TestSet_y2(3,:))'));
 
 %% Plot performance of the L-CNN model
-x = 1;
+%x = 1;
 y = [MRE1;MRE2;MRE3];
-b = bar(x,y);
+b = bar(y);
 grid on
 set(gcf,'color','white')
 set(gca,'linewidth',2,'fontsize',15,'fontname','Times');
 xlabel('L-CNN','Fontname', 'Times New Roman','FontSize',18)
 ylabel('MRE','Fontname', 'Times New Roman','FontSize',18)
 grid on
-legend_str = {'\it L_b','\it L_e','\it γ'};
+legend_str = {'\it L_b','\it L_e','\it gamma'};
 legend(legend_str,'FontSize',18)
 
 %% Analyze the precision under different ageing severities
@@ -76,7 +76,7 @@ set(gca,'linewidth',2,'fontsize',15,'fontname','Times');
 xlabel('Ageing severity','Fontname', 'Times New Roman','FontSize',18)
 ylabel('MRE','Fontname', 'Times New Roman','FontSize',18)
 grid on
-legend_str = {'\it L_b','\it L_e','\it γ'};
+legend_str = {'\it L_b','\it L_e','\it gamma'};
 legend(legend_str,'FontSize',18)
 % Ageing severity = 1 indicates lightly aged
 % Ageing severity = 2 indicates medium aged
