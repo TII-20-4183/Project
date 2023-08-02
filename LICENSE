@@ -1,4 +1,2 @@
-The uploaded files are intended for the review process of TII-20-4183.
-As the review process of TII is anonymous, we do not include any information of the contributors in the current form.
-Please only use the uploaded files for the validation of the performance of the trained models in the manuscript.
-Thanks for your kind support.
+These files include the segmantal ageing location algorithm in Y. Wu, P. Zhang's paper "Detection and Location of Aged Cable Segment in Underground Power Distribution System Using Deep Learning Approach", which has been published in IEEE Transactions on Industrial Informatics, vol. 17, no. 11, pp. 7379-7389, Nov. 2021. (https://doi.org/10.1109/TII.2021.3056993).
+If any researches will be conducted based on the uploaded codes, please refer to the above paper properly in the references. Thanks for your support.
