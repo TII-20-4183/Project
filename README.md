@@ -1,6 +1,9 @@
 # TII-20-4183/Project
 
-The included files are intended for the review process of manuscript TII-20-4183.
+These files include the segmantal ageing location algorithm in Y. Wu, P. Zhang's paper "Detection and Location of Aged Cable Segment in Underground Power Distribution System Using Deep Learning Approach", which has been published in IEEE Transactions on Industrial Informatics, vol. 17, no. 11, pp. 7379-7389, Nov. 2021. (https://doi.org/10.1109/TII.2021.3056993).
+
+If any researches will be conducted based on the uploaded codes, please refer to the above paper properly in the references. Thanks for your support.
+
 The training of the models is based on MATLAB Deep Learning Toolbox. (R. B. Palm, "Prediction as a candidate for learning deep hierarchical models of data," 2012.)
 
 Please run Test_Demo and Test_Demo2 directly to obtain the main results of the manuscript.
